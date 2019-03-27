@@ -15,6 +15,9 @@ function getValues() {
             output.push(input[i].value);
         }
     }
+    if (output.length < 5) {
+        return alert("Ответьте на все вопросы");
+    }
     output.forEach(function (item) {
         let num = +item;
         sum += num;
