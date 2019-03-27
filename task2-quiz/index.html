@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>quiz</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="root">
+    <div class="content">
+        <h1 class="title">Социологический опрос на тему:"Социальные сети"</h1>
+        <form class="form" action="post">
+            <div class="question_block1">
+                <h2 class="question1">Сколько времени в день Вы проводите в социальных сетях?</h2>
+                <ul id="list1" class="list">
+                    <li><input class="input" type="radio" name="group1" value="1"><label>15-20 минут</label></li>
+                    <li><input class="input" type="radio" name="group1" value="2"><label>от 20 минут до часа</label></li>
+                    <li><input class="input" type="radio" name="group1" value="3"><label>от часа до трёх</label></li>
+                    <li><input class="input" type="radio" name="group1" value="4"><label>больше трёх часов</label></li>
+                </ul>
+            </div>
+
+            <div class="question_block2">
+                <h2 class="question2">Что Вас привлекает в социальных сетях?</h2>
+                <ul id="list2" class="list">
+                    <li><input class="input" type="radio" name="group2" value="1"><label>Общение с друзьями/родственниками</label></li>
+                    <li><input class="input" type="radio" name="group2" value="2"><label>Прослушивание музыки</label></li>
+                    <li><input class="input" type="radio" name="group2" value="3"><label>Просмотр видеозаписей</label></li>
+                    <li><input class="input" type="radio" name="group2" value="4"><label>Играю в приложения</label></li>
+                    <li><input class="input" type="radio" name="group2" value="5"><label>Все вышеперечисленное</label></li>
+                </ul>
+            </div>
+
+            <div class="question_block3">
+                <h2 class="question3">Какую информацию о себе Вы выкладываете в социальных сетях?</h2>
+                <ul id="list3" class="list">
+                    <li><input class="input" type="radio" name="group3" value="2"><label>ФИО, пару фотографий,место, где я учусь/работаю</label></li>
+                    <li><input class="input" type="radio" name="group3" value="3"><label>Выкладываю всю информацию о себе(интересы, любимые фильмы,книги и т.д.)</label></li>
+                    <li><input class="input" type="radio" name="group3" value="1"><label>Только необходимый минимум</label></li>
+                </ul>
+            </div>
+
+            <div class="question_block4">
+                <h2 class="question4">Вы считаете себя зависимым от социальных сетей?</h2>
+                <ul id="list4" class="list">
+                    <li><input class="input" type="radio" name="group4" value="3"><label>Да</label></li>
+                    <li><input class="input" type="radio" name="group4" value="1"><label>Нет</label></li>
+                    <li><input class="input" type="radio" name="group4" value="2"><label>Немного</label></li>
+                </ul>
+            </div>
+
+            <div class="question_block5">
+                <h2 class="question5">Будете ли Вы пользоваться социальными сетями, если они станут платными?</h2>
+                <ul id="list5" class="list">
+                    <li><input class="input" type="radio" name="group5" value="4"><label>Да, не зависимо от цены</label></li>
+                    <li><input class="input" type="radio" name="group5" value="3"><label>Да, если цена будет умеренной</label></li>
+                    <li><input class="input" type="radio" name="group5" value="1"><label>Нет, не собираюсь тратить деньги на всякую ерунду</label></li>
+                    <li><input class="input" type="radio" name="group5" value="2"><label>Затрудняюсь ответить</label></li>
+                </ul>
+            </div>
+                <button type="button" id="button" class="button">Получить результат</button>
+            <div id="result"></div>
+        </form>
+    </div>
+</div>
+
+<script type="text/javascript" src="main.js"></script>
+</body>
+</html>
