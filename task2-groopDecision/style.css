@@ -1,0 +1,31 @@
+@keyframes changeDisplay {
+    from{opacity: 1; }
+    to{opacity: 0; }
+}
+
+
+.wrapper{
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: baseline;
+
+}
+
+.result__header,.result__contain{
+    font-size:30px;
+}
+.animation{
+    animation-name: changeDisplay;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+    animation-direction: normal;
+    animation-duration: 1s;
+}

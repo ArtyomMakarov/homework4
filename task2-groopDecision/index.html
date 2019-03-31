@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div class="wrapper">
+    <h1 class="wrapper__header">Какой ты алкоголь?</h1>
+    <div class="question">
+        <h2 class="question__header">Тебе предложили поехать в не знакомую страную, твой ответ:</h2>
+        <div class="question-contain disabled ">
+            <input name="travel" id="travel1" type="radio" class="question__option" data-index-number="1">
+            <label for="travel1" >Спасибо но нет.</label>
+        </div>
+        <div class="question-contain">
+            <input name="travel" id="travel2" type="radio" class="question__option" data-index-number="2">
+            <label for="travel2"> А какой номер в отеле будет??</label>
+        </div>
+        <div class="question-contain">
+            <input name="travel" id="travel3" type="radio" class="question__option" data-index-number="4">
+            <label for="travel3"> Только я выбираю, чем мы будем заниматься!</label>
+        </div>
+        <div class="question-contain">
+            <input name="travel" id="travel4" type="radio" class="question__option" data-index-number="3">
+            <label for="travel4"> Конечно, когда выезжаем?</label>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="question__header">Какой у тебя характер?</h2>
+        <div class="question-contain">
+            <input name="temper" id="temper1" type="radio" class="question__option" data-index-number="3" disabled>
+            <label for="temper1">Я всегда душа компании</label>
+        </div>
+        <div class="question-contain">
+            <input name="temper" id="temper2" type="radio" class="question__option" data-index-number="4" disabled>
+            <label for="temper2">Сдержанный, но иногда и вспылить могу</label>
+        </div>
+        <div class="question-contain">
+            <input name="temper" id="temper3" type="radio" class="question__option" data-index-number="2" disabled>
+            <label for="temper3">Легкомысленный</label>
+        </div>
+        <div class="question-contain">
+            <input name="temper" id="temper4" type="radio" class="question__option" data-index-number="1" disabled>
+            <label for="temper4">Нормальный</label>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="question__header">Без какой еды закуска не закуска:</h2>
+        <div class="question-contain">
+            <input name="snack" id="snack1" type="radio" class="question__option" data-index-number="2" disabled>
+            <label for="snack1">Фрукты, сыр</label>
+        </div>
+        <div class="question-contain">
+            <input name="snack" id="snack2" type="radio" class="question__option" data-index-number="3" disabled>
+            <label for="snack2">Селёдочка, огурчики</label>
+        </div>
+        <div class="question-contain">
+            <input name="snack" id="snack3" type="radio" class="question__option" data-index-number="4" disabled>
+            <label for="snack3">Мясо, да побольше</label>
+        </div>
+        <div class="question-contain">
+            <input name="snack" id="snack4" type="radio" class="question__option" data-index-number="1" disabled>
+            <label for="snack4">Ну и вопрос, конечно же чипсы!</label>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="question__header">Как часто отмечаешь праздники с алкоголем?</h2>
+        <div class="question-contain">
+            <input name="fiesta" id="fiesta1" type="radio" class="question__option" data-index-number="1" disabled>
+            <label for="fiesta1">Для меня каждый день - праздник!</label>
+        </div>
+        <div class="question-contain">
+            <input name="fiesta" id="fiesta2" type="radio" class="question__option" data-index-number="3" disabled>
+            <label for="fiesta2">Ну как все, там новый год, день вдв</label>
+        </div>
+        <div class="question-contain">
+            <input name="fiesta" id="fiesta3" type="radio" class="question__option" data-index-number="2" disabled>
+            <label for="fiesta3">Пить не обязательно только по праздникам, можно и по настроению!</label>
+        </div>
+        <div class="question-contain">
+            <input name="fiesta" id="fiesta4" type="radio" class="question__option" data-index-number="4" disabled>
+            <label for="fiesta4">Пью только в крайних случаях, но метко</label>
+        </div>
+    </div>
+    <div class="question">
+        <h2 class="question__header">У тебя много друзей?</h2>
+        <div class="question-contain">
+            <input name="friend" id="friend1" type="radio" class="question__option" data-index-number="4" disabled>
+            <label for="friend1">Есть хорошие знакомые</label>
+        </div>
+        <div class="question-contain">
+            <input name="friend" id="friend2" type="radio" class="question__option" data-index-number="2" disabled>
+            <label for="friend2">Ой, подружек-то хватает</label>
+        </div>
+        <div class="question-contain">
+            <input name="friend" id="friend3" type="radio" class="question__option" data-index-number="3" disabled>
+            <label for="friend3">Все люди мои друзья, а с ними - и море по колено</label>
+        </div>
+        <div class="question-contain">
+            <input name="friend" id="friend4" type="radio" class="question__option" data-index-number="1" disabled>
+            <label for="friend4">Ну есть пару дружбанов</label>
+        </div>
+    </div>
+
+    <div class="result">
+        <span class="result__header">Вы:</span>
+        <span class="result__contain"></span>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
